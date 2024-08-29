@@ -13,12 +13,22 @@
 
 ![Banner para Linkedin Licenciada Marketing Minimalista Beige](https://github.com/user-attachments/assets/5aa064ef-bae6-43c5-b7ad-cf048a5221e1)
 
+
+
 # Desafío Técnico
 
   Este proyecto consiste en una API RESTful para la creación, lectura, actualización y eliminación (CRUD) de usuarios utilizando JSON Web Tokens (JWT). La API está implementada en Java 17 utilizando Spring Boot 3.3.3 y emplea una base de datos en memoria H2 para el almacenamiento de los datos. 
+
+  
   El proyecto se enfocó en una implementación directa y sencilla de JWT para la autenticación, sin la complejidad adicional de configurar Spring Security, lo que hace que la solución sea más accesible para el desafío técnico solicitado. 
+
+  
   La API permite registrar y gestionar usuarios en la base de datos, validando que el correo electrónico tenga un formato correcto según las especificaciones (aaaaaaa@dominio.cl) y que no esté previamente registrado, junto con validación de contraseña configurable según un patrón regex.
+
+  
   Se creó un endpoint para generar directamente el token para cuando se vence el token actual recordando que los tokens generados se persisten junto con los datos del usuario en la base de datos H2.
+
+
 
 ## Backend 
 
@@ -35,13 +45,19 @@
 
 ---
 
+
+
 # Diagrama de Solución
 
 ![image](https://github.com/user-attachments/assets/d91b402b-9375-426a-b36a-bad485e72b84)
 
 ---
 
+
+
 # Para probar la API
+
+
 
 ## Usando Swagger
 
@@ -53,7 +69,7 @@
 
 1. Iniciar la aplicación:
 
-Asegúrate de que la aplicación esté corriendo en tu entorno local. Si estás usando Spring Boot, puedes iniciar la aplicación ejecutando el comando mvn spring-boot:run o ejecutando la clase principal desde tu IDE o darle click al botón Run de Intelij Idea.
+Asegúrate de que la aplicación esté corriendo en tu entorno local. Si estás usando Spring Boot, puedes iniciar la aplicación ejecutando el comando mvn spring-boot:run o ejecutando la clase principal desde tu IDE dándole click al botón Run de Intellij Idea.
 
 2. Acceder a Swagger UI:
    
@@ -124,7 +140,7 @@ Introduce el JSON con los datos del usuario que deseas registrar, por ejemplo:
 ```
 
 
-Luego click en Send para enviar la solicitud y ver la respuesta
+Luego click en Send para enviar la solicitud y ver la respuesta.
    
 
 >[!TIPS]
