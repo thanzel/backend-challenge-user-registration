@@ -1,5 +1,3 @@
-<h1 align="center"> APIRest para Registro de Usuarios </h1>
-
 ![Banner para Linkedin Licenciada Marketing Minimalista Beige](https://github.com/user-attachments/assets/5aa064ef-bae6-43c5-b7ad-cf048a5221e1)
 
 <div align="center">
@@ -14,7 +12,7 @@
 </div>
 
 
-# Desafío Técnico
+# APIRest para Registro de Usuarios (Desafío Técnico)
 
   Este proyecto consiste en una API RESTful para la creación, lectura, actualización y eliminación (CRUD) de usuarios utilizando JSON Web Tokens (JWT). La API está implementada en Java 17 utilizando Spring Boot 3.3.3 y emplea una base de datos en memoria H2 para el almacenamiento de los datos. 
 
