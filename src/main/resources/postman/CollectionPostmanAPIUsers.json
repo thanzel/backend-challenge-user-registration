@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "5811f5df-e2a3-4a09-8762-21a8477fea00",
+		"name": "ApiSpringUsers",
+		"description": "Desafío Técnico: API RESTful para la creación, lectura, actualización y eliminación (CRUD) de usuarios utilizando JSON Web Tokens (JWT)EndFragment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15946227"
+	},
+	"item": [
+		{
+			"name": "Buscar usuario por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/user/find/3f5f2bf9-8635-47c6-acc8-eb676149d0d6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"find",
+						"3f5f2bf9-8635-47c6-acc8-eb676149d0d6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/user/eliminar/3f5f2bf9-8635-47c6-acc8-eb676149d0d6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"eliminar",
+						"3f5f2bf9-8635-47c6-acc8-eb676149d0d6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todos los Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/user/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Cristal Paz\",\r\n  \"email\": \"cristral@dominio.cl\",\r\n  \"password\": \"Aer1&aaa\",\r\n  \"phones\": [\r\n    {\r\n      \"number\": \"123-4567\",\r\n      \"citycode\": \"04\",\r\n      \"countrycode\": \"58\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/user/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Cristal Paz M\",\r\n  \"email\": \"cristaal@dominio.cl\",\r\n  \"isActive\": false,  \r\n  \"password\": \"Aer1&aaa\",\r\n  \"phones\": [\r\n    {\r\n      \"number\": \"123-4567\",\r\n      \"citycode\": \"04\",\r\n      \"countrycode\": \"58\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/user/actualizar/1fe00b84-551e-4af9-9e6c-0966949c26e6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"actualizar",
+						"1fe00b84-551e-4af9-9e6c-0966949c26e6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Generar Token",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/user/tokengenerate/3f5f2bf9-8635-47c6-acc8-eb676149d0d6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"user",
+						"tokengenerate",
+						"3f5f2bf9-8635-47c6-acc8-eb676149d0d6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
