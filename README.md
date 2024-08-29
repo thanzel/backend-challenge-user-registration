@@ -136,3 +136,10 @@ Luego click en Send para enviar la solicitud y ver la respuesta
 >   * Collección de Postman
 >   * [Swagger](http://localhost:8080/swagger-ui/index.html#/)
       
+
+    
+## Desarrollador
+
+[Yenny Chipamo](https://www.linkedin.com/in/yenny-chipamo/)
+* Software Developer - Backend Java Jr. - Spring Boot
+* FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
