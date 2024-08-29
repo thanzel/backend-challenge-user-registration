@@ -1,5 +1,7 @@
 <h1 align="center"> APIRest para Registro de Usuarios </h1>
 
+![Banner para Linkedin Licenciada Marketing Minimalista Beige](https://github.com/user-attachments/assets/5aa064ef-bae6-43c5-b7ad-cf048a5221e1)
+
 <div align="center">
   
   ![Static Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -10,9 +12,6 @@
   ![Static Badge](https://img.shields.io/badge/STATUS-TERMINADO-blue?style=flat)
 
 </div>
-
-![Banner para Linkedin Licenciada Marketing Minimalista Beige](https://github.com/user-attachments/assets/5aa064ef-bae6-43c5-b7ad-cf048a5221e1)
-
 
 
 # Desafío Técnico
