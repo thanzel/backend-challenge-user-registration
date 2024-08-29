@@ -20,7 +20,7 @@
   Este proyecto consiste en una API RESTful para la creación, lectura, actualización y eliminación (CRUD) de usuarios utilizando JSON Web Tokens (JWT). La API está implementada en Java 17 utilizando Spring Boot 3.3.3 y emplea una base de datos en memoria H2 para el almacenamiento de los datos. 
 
   
-  El proyecto se enfocó en una implementación directa y sencilla de JWT para la autenticación, sin la complejidad adicional de configurar Spring Security, lo que hace que la solución sea más accesible para el desafío técnico solicitado. 
+  El proyecto se enfocó en una implementación directa y sencilla de JWT para persistir con el usuario, sin la complejidad adicional de configurar Spring Security, lo que hace que la solución sea más accesible para el desafío técnico solicitado. 
 
   
   La API permite registrar y gestionar usuarios en la base de datos, validando que el correo electrónico tenga un formato correcto según las especificaciones (aaaaaaa@dominio.cl) y que no esté previamente registrado, junto con validación de contraseña configurable según un patrón regex.
