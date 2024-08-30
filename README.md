@@ -2,12 +2,12 @@
 
 <div align="center">
   
-  ![Static Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![Static Badge](https://img.shields.io/badge/SpringbOOT-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-  ![Static Badge](https://img.shields.io/badge/H2-00000F?style=for-the-badge&logo=H2Database&logoColor=white)
+  ![Static Badge](https://img.shields.io/badge/Java-ffebee?style=for-the-badge&logo=coffeescript&logoColor=ffebee&labelColor=a1887f)
+  ![Static Badge](https://img.shields.io/badge/Spring%20Boot-9fa8da?style=for-the-badge&logo=springboot&logoColor=9fa8da&labelColor=fff59d)
+  ![Static Badge](https://img.shields.io/badge/H2-e8eaf6?style=for-the-badge&logo=spring&logoColor=e8eaf6&labelColor=80deea)
 
-  ![Static Badge](https://img.shields.io/badge/VERSION-1.0-yellow?style=flat)
-  ![Static Badge](https://img.shields.io/badge/STATUS-TERMINADO-blue?style=flat)
+  ![Static Badge](https://img.shields.io/badge/Version-1.0-ffebee?style=for-the-badge&logoColor=ff5722&labelColor=ce93d8)
+  ![Static Badge](https://img.shields.io/badge/Status-TERMINADO-e8f5e9?style=for-the-badge&logoColor=ff5722&labelColor=f48fb1)
 
 </div>
 
