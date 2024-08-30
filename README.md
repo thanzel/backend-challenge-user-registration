@@ -55,14 +55,13 @@
 # Para probar la API
 
 
-
-## Usando Swagger
-
 <div align="center"> 
   
-![image](https://github.com/user-attachments/assets/6167b0cf-32e1-48b7-81ff-dee6ff18fbb6)
+![Static Badge](https://img.shields.io/badge/Swagger-e8eaf6?style=for-the-badge&logo=swagger&logoColor=black&labelColor=9ccc65)
 
 </div>
+
+## Usando Swagger
 
 1. Iniciar la aplicación:
 
@@ -98,14 +97,14 @@ Puedes probar otros endpoints de CRUD (GET, PUT, DELETE) utilizando la misma int
 ---
 
 
-
-   ## Usando Postman
-
+  
    <div align="center"> 
 
-   ![image](https://github.com/user-attachments/assets/6c0341c2-d16c-425a-97aa-2e4a9f761262)
+   ![Static Badge](https://img.shields.io/badge/Postman-e8eaf6?style=for-the-badge&logo=postman&logoColor=e8eaf6&labelColor=ff5722)
 
    </div>
+
+   ## Usando Postman
 
    1. Importar la colección de Postman:
       
