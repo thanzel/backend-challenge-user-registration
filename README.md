@@ -1,4 +1,4 @@
-![Banner para Linkedin Licenciada Marketing Minimalista Beige](https://github.com/user-attachments/assets/5aa064ef-bae6-43c5-b7ad-cf048a5221e1)
+![Banner para Linkedin Licenciada Marketing Minimalista Beige (1)](https://github.com/user-attachments/assets/b8c14db4-1141-4cfe-84a5-cd2b2adbdb7b)
 
 <div align="center">
   
@@ -152,6 +152,6 @@ Luego click en Send para enviar la solicitud y ver la respuesta.
     
 ## Desarrollador
 
-[Yenny Chipamo](https://www.linkedin.com/in/yenny-chipamo/)
+[Yenny](...)
 * Software Developer - Backend Java Jr. - Spring Boot
 * FullStack Junior Developer Jr.: Javascript - JQuery - Typescript - HTML - CSS - Bootstrap
